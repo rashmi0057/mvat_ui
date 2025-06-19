@@ -18,7 +18,7 @@
                   </a>
                 </div>
                 <div class="col">
-                  <a class="p-3 bg-secondary text-white text-center rounded icon-block">
+                  <a href="return-index.php" class="p-3 bg-secondary text-white text-center rounded icon-block">
                     <i class="priya-repeat"></i>
                     Return
                   </a>

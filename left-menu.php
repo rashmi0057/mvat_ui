@@ -37,7 +37,8 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-login btn-sm mt-2">Login</button>
+                    <!-- <button type="submit" class="btn btn-login btn-sm mt-2">Login</button> -->
+                    <a href="dashboard.php"  class="btn btn-login btn-sm mt-2 text-white">Login</a>
                     <div class="text-center small mt-3 bold">
                         <span data-link="forgotpassword">Forgot Password</span>
                     </div>

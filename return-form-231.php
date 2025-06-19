@@ -1,9 +1,9 @@
-<?php include_once('header.php') ?>
+<?php include_once('header-dashboard.php') ?>
 <div id="SkipContent"></div>
 
 <div class="container-fluid1 content">
     <div class="layout">
-        <?php include_once('left-menu.php') ?>
+        <?php include_once('left-menu-dashboard.php') ?>
         <div class="main-right">
             <div class="right-content">
                 <h1>FORM 231</h1>

@@ -1,4 +1,4 @@
-<?php include_once('header.php') ?>
+<?php include_once('header-dashboard.php') ?>
 <?php
 $monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 ?>
@@ -6,7 +6,7 @@ $monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct
 
 <div class="container-fluid1 content">
     <div class="layout">
-        <?php include_once('left-menu.php') ?>
+        <?php include_once('left-menu-dashboard.php') ?>
         <div class="main-right">
             <div class="right-content">
                 <span class="header-buttons float-right">
@@ -345,7 +345,7 @@ $monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-sm">Submit</button>
+                            <a href="return-form-231.php" class="btn btn-sm">Submit</a>
                         </div>
                     </form>
                 </div>
@@ -411,7 +411,7 @@ $monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct
 
             if (formType && year && period && returnType && taxType) {
                 $('.header-tab').slideDown(1000);
-            }else{
+            } else {
                 $('.header-tab').slideUp(1000);
             }
         });
