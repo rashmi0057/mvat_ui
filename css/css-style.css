@@ -2280,7 +2280,7 @@ body .toTableView .row > div .form-group label,
     display: none;
 }
 body .toTableView .row:first-child > div label {
-    height: 80px;
+    height:auto;
     padding: 5px;
     background: #ddd;
     display: flex;
@@ -3205,3 +3205,27 @@ color-palate circle.clr.clr-5 { cy: 520px; cx: 220px; }
     z-index: 10;
     font-size: 22px;
 }
+/* Width of the entire scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 11px;
+  }
+  
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+  }
+  
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color2);
+    border-radius: 6px;
+    max-height: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color1);
+  }
+  
