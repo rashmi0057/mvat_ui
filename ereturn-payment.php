@@ -66,10 +66,10 @@
                             </div>
                         </div>
                     </div>
-                    <ul class="text-danger" style="list-style-type: disc;">
-                        <li>>> Please enter the amount payable including Tax, Interest Penalty, fees, any other amount payable together. It will be appropriated as shown in your return.</li>
-                        <li>>> For payments other than rehuns use Order Dues Payment ulilily</li>
-                        <li>>> For payments after filling of return use Return Oues Payment available after login under payment tab.</li>
+                    <ul class="text-danger">
+                        <li><i class="priya-angle-double-right"></i> Please enter the amount payable including Tax, Interest Penalty, fees, any other amount payable together. It will be appropriated as shown in your return.</li>
+                        <li><i class="priya-angle-double-right"></i> For payments other than rehuns use Order Dues Payment ulilily</li>
+                        <li><i class="priya-angle-double-right"></i> For payments after filling of return use Return Oues Payment available after login under payment tab.</li>
                     </ul>
                     <div class="text-center mt-3">
                         <button type="button" class="btn btn-danger" onclick="history.back()">Back</button>
