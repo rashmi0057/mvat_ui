@@ -164,7 +164,7 @@
             <input type="checkbox" name="" id=""> I Agree
             <div class="text-center mt-2">
                 <button class="btn btn-sm" type="button" onclick="helpModalHide(this)">Cancel</button>
-                <button class="btn btn-sm">Proced</button>
+                <a href="payment-gateway.php" class="btn btn-sm">Proced</a>
             </div>
         </section>
     </div>

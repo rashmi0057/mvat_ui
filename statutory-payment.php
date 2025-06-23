@@ -172,7 +172,7 @@
 
               <div id="captchaResult" class="mb-3"></div>
 
-              <a class="btn btn-sm" href="statutory-payment2.php">Next</a>
+              <button class="btn btn-sm next-payment-page" type="button">Next</button>
             </form>
           </div>
         </div>
@@ -185,6 +185,11 @@
     $('input[name="formSelector"]').click(function() {
       $('.selectedDiv').hide();
       $('.' + $(this).val()).show();
+    });
+    $('.next-payment-page').click(function() {
+      let urlParams = new URLSearchParams(window.location.search);
+      let redirectLink = urlParams.get('redirect');
+      window.location = redirectLink;
     });
   });
 </script>
